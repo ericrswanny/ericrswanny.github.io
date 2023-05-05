@@ -7,9 +7,11 @@ tags: [emacs, programming, doom]
 
 ## Emacs Comment Toggle
 
-Comment toggling is one of my most heavily used features of a development text editor. When I recently switched from vim to mainly using doom emacs, I was disapointed to find that there was no built in keybinding for comment toggling single lines or blocks. After some googling, I found a system that works for me.
+Comment toggling is one of my most heavily used features of a text editor. When I recently switched from vim to mainly doom emacs, I was disapointed to find that there was no built in keybinding for comment toggling single lines or blocks. After some googling, I found a system that works for me.
 
 Add this to your config.el. I use doom emacs, but this could be pretty easily tweaked to work with vanilla emacs as well. 
+
+Just press `<leader>` (in my case, space), `c`, then `;` to toggle a line or block of selected lines between commented / uncommented.
 
 ```lisp
 ;; Comments or uncomments a region or line
